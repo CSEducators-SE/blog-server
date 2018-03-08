@@ -1,0 +1,18 @@
+{
+    "version": "1.0",
+    "name": "blog-server",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.16.2",
+        "mysql": "^2.15.0",
+        "path": "^0.12.7"
+    },
+    "scripts": {
+        "start": "node app.js"
+    },
+    "description": "cse blog",
+    "repository": "https://github.com/CSEducators-SE/blog-server.git",
+    "author": "Itamar Green <itamar.green@gmail.com>",
+    "license": "MIT",
+    "private": false
+}
