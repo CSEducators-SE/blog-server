@@ -8,7 +8,15 @@ const ob=JSON.parse(`{"thing":"${id}"}`);
 
 }
 
+var getAllArticles=function(){
+    const ob=JSON.parse(`[{"thing":"2"},{"thing":"3"}]`);
+    return new Promise((resolve,reject)=>{
+        resolve(ob);
+    })
+}
+
 
 module.exports={
-    getArticle
+    getArticle,
+    getAllArticles
 }
